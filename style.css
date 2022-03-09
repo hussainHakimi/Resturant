@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background: #eee;
 }
 .container{
     width: 90%;
@@ -118,6 +119,178 @@ nav a:hover{
     box-sizing: border-box;
 }
 
+
+
+
+
+
+
+/*===============
+ Features Part 
+ ================*/
+ .features{
+    width: 100%;
+    height: 400px;
+}
+.features ul{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.features li{
+    width: 23%;
+    float: left;
+    height: 250px;
+    list-style-type: none;
+    margin: 65px 12px;
+    background: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.features li:first-child{
+    margin-left: 6px;
+}
+.features li:last-child(){
+    margin-right: 0;
+}
+.features li:hover{
+    background: #FEA116;
+    color: #fff;
+}
+.features i{
+    width: 40px;
+    height: 30px;
+    display: block;
+    margin: 30px 0;   
+}
+
+
+/*==============
+Wemocme Part
+================*/
+.num{
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    float: left;
+    color: #FEA116;
+    padding-right: 20px;
+}
+.num_txt{
+    line-height: 25px;
+    color: gray;
+}
+.num_txt strong{
+    color: #000;
+}
+.welcome{
+    width: 100%;
+    height: 600px;
+}
+.welcome div{
+    width: 50%;
+    float: left;
+}
+.welcome img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 4px;
+}
+.welcome img:nth-child(1){
+    width: 240px;
+    height: 240px;
+}
+.welcome img:nth-child(2){
+    width: 195px;
+    height: 180px;
+}
+.welcome img:nth-child(3){
+    width: 195px;
+    height: 180px;
+    position: relative;
+    top: -60px;
+    left: 45px;
+}
+.welcome img:nth-child(4){
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: 0px;
+    right: -45px;
+}
+
+
+.spl_font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #FEA116;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.logo_fork{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    object-fit: cover;
+    
+}
+.logo_fork .logo_fork_img{
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.welcome_txt{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.welcome_txt div{
+    width: 48%;
+    float: left;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    border-left: 3px solid #FEA116;
+}
+.welcome_txt .exp_year{
+    margin-left: 0;
+}
+.welcome_txt p{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:675px){
     
     .container{
@@ -138,5 +311,19 @@ nav a:hover{
     }
     .slider_img img{
         margin: 80px 60px 0px 0px;
+    }
+    .features li{
+        width: 45%;
+        margin: 20px 15px;
+    }
+    .features li:first-child{
+        margin-left: 15px;
+    }
+    .welcome div{
+        width: 100%;
+    }
+    .wel_img{
+        margin-left: 55px;
+        box-sizing: border-box;
     }
 }
