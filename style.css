@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+.container_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.logo{
+    width: 20px; 
+    height:20px; 
+    display:inline-block;
+    object-fit:contain
+}
+
+/* =============
+Header and Navbar
+==============*/
+header{
+    background: #0F172B;
+    color: #fff;
+    width: 100%;
+    min-height: 70px;
+}
+header h1{
+    margin: 16px 0;
+    color: #FEA116;
+}
+nav{
+    margin-top: 9px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin-left: 30px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a:hover{
+    color: #FEA116;
+}
+.active{
+    color: #FEA116;
+}
+
+
+@media(max-width:675px){
+    .container_flex{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    nav li{
+        margin:6px 0;
+    }
+}
