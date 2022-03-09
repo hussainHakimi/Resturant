@@ -27,6 +27,8 @@ img{
 Header and Navbar
 ==============*/
 header{
+    position: sticky;
+    top: 0;
     background: #0F172B;
     color: #fff;
     width: 100%;
