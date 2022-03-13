@@ -271,7 +271,7 @@ FOOD MENU START
 
 .food_menu{
     width: 100%;
-    max-height: 500px;
+    max-height: 670px;
 }
 .food_menu_txt{
     text-align: center;
@@ -376,6 +376,96 @@ START OF FOOD ITEMS
     right: 0;
 }
 
+/*=============
+BOOK MARK START
+===============*/
+.book_mark{
+    width: 100%;
+    height: 510px;
+    
+}
+.book_mark div{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.book_video{
+    position: relative;
+}
+.book_video img{
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
+}
+.book_video a{
+    width: 70px;
+    height: 70px;
+    background: #FEA116;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 200px;
+    cursor: pointer;
+}
+.book_form{
+    background-color: #0F172B;
+    height: 100%;
+    padding:0 50px;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.book_form h2{
+    color: white;
+    font-size: 2.3rem;
+    margin: 10px 0px 30px 0px;
+}
+.book_form{
+    font-weight: bold;
+}
+.book_form input , select{
+    width: 46%;
+    float: left;
+}
+.book_form input[type=text], input[type=email], input[type=date], select{
+    padding: 20px 0;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: .9rem;
+    padding-left:10px ;
+    box-sizing: border-box;
+}
+.book_form input[type=text]:focus, input[type=email]:focus, input[type=date]:focus, textarea:focus{
+    outline: none;
+}
+.book_form input:nth-child(odd){
+    margin-right: 30px;
+}
+.book_form textarea{
+    width: 96.4%;
+    margin-top: 20px;
+    height: 90px;
+}
+.book_form select{
+    width: 46%;
+    background: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.book_form input[type=submit]{
+    width:98% ;
+    background: #FEA116;
+    color: #fff;
+    padding: 18px 0;
+    margin-top: 18px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
 
 
 
@@ -479,5 +569,27 @@ START OF FOOD ITEMS
     }
     .food_menu {
         max-height: 1150px;
+    }
+
+    .book_mark{
+        height: 1200px;
+    }
+    .book_mark div{
+        width: 100%;
+    }
+    .book_form{
+        height: 680px;
+    }
+    .book_form input[type=text], input[type=email], input[type=date]{
+        width: 100%;
+    }
+    .book_form select{
+        width: 100%;
+    }
+    .book_form textarea{
+        width: 98.4%;
+    }
+    .book_form input[type=submit]{
+        width: 100%;
     }
 }
