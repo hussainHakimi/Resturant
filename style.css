@@ -34,6 +34,7 @@ header{
     color: #fff;
     width: 100%;
     min-height: 70px;
+    z-index: 5;
 }
 header h1{
     margin: 16px 0;
@@ -264,9 +265,134 @@ Wemocme Part
     color: gray;
 }
 
+/*============
+FOOD MENU START
+==============*/
+
+.food_menu{
+    width: 100%;
+    max-height: 500px;
+}
+.food_menu_txt{
+    text-align: center;
+}
+.food_menu_txt h1{
+    font-size: 3rem;
+    
+}
+.food_menu_txt ul{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    padding-left: 260px;
+    box-sizing: border-box;
+}
+.food_menu_txt ul li{
+    list-style-type: none;
+    float: left;
+    width: 14%;
+    text-align: right;
+    margin-left: 60px;
+}
+.food_menu_txt ul li .menu_active{
+    border-bottom: 2px solid #FEA116;
+}
+.food_menu_txt i{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: left;
+}
+.food_menu_txt i img{
+    width: 100%;
+}
+.m_txt{
+    font-size: 10pt;
+    color: gray;
+}
+.m_txt2{
+    font-weight: bold;
+}
 
 
-
+/*=================
+START OF FOOD ITEMS
+=================*/
+.food_items{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    display: block;
+}
+.food_items div{
+    width: 47%;
+    height: 100%;
+    float: left;
+}
+.food_items_one{
+    margin-right: 65px;
+}
+.food_items_one ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.food_items_one ul li{
+    width: 100%;
+    height:17% ;
+    list-style-type: none;
+    position: relative;
+}
+.food_items_one ul li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.food_items_one ul li h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.food_items hr{
+    color: silver;
+}
+.food_item_txt{
+    font-size: 10pt;
+    font-style: italic;
+    color: gray;
+}
+.food_item_price{
+    color: #FEA116;
+    font-weight: 700;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.food_items_two ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.food_items_two ul li{
+    width: 100%;
+    height:17% ;
+    list-style-type: none;
+    position: relative;
+}
+.food_items_two ul li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.food_items_two ul li h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
 
 
