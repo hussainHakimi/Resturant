@@ -325,13 +325,10 @@ START OF FOOD ITEMS
     box-sizing: border-box;
     display: block;
 }
-.food_items div{
-    width: 47%;
-    height: 100%;
-    float: left;
-}
+
 .food_items_one{
-    margin-right: 65px;
+    width: 100%;
+    height: 100%;
 }
 .food_items_one ul{
     width: 100%;
@@ -339,10 +336,17 @@ START OF FOOD ITEMS
     padding: 0;
 }
 .food_items_one ul li{
-    width: 100%;
+    width: 47.7%;
     height:17% ;
     list-style-type: none;
+    float: left;
     position: relative;
+    margin-top: 15px;
+}
+.food_items_one ul li:nth-child(odd){
+    margin-right: 50px;
+    box-sizing: border-box;
+
 }
 .food_items_one ul li img{
     width: 80px;
@@ -353,7 +357,7 @@ START OF FOOD ITEMS
 }
 .food_items_one ul li h3{
     font-weight: 700;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 .food_items hr{
     color: silver;
@@ -370,28 +374,6 @@ START OF FOOD ITEMS
     position: absolute;
     top: 0px;
     right: 0;
-}
-.food_items_two ul{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
-.food_items_two ul li{
-    width: 100%;
-    height:17% ;
-    list-style-type: none;
-    position: relative;
-}
-.food_items_two ul li img{
-    width: 80px;
-    height: 80px;
-    float: left;
-    border-radius: 4px;
-    margin-right: 20px;
-}
-.food_items_two ul li h3{
-    font-weight: 700;
-    margin-bottom: 10px;
 }
 
 
@@ -438,6 +420,9 @@ START OF FOOD ITEMS
     .slider_img img{
         margin: 80px 60px 0px 0px;
     }
+    .features{
+        height: 580px;
+    }
     .features li{
         width: 45%;
         margin: 20px 15px;
@@ -445,11 +430,54 @@ START OF FOOD ITEMS
     .features li:first-child{
         margin-left: 15px;
     }
+    .welcome{
+        height: 1050px;
+    }
     .welcome div{
         width: 100%;
+    }
+    .welcome_txt{
+        text-align: center;
+    }
+    .welcome_txt div{
+        width: 47%;
+        float: left;
+        box-sizing: border-box;
     }
     .wel_img{
         margin-left: 55px;
         box-sizing: border-box;
+    }
+
+    .food_menu_txt ul{
+        padding-left: 70px;
+        text-align: center;
+    }
+    .food_menu_txt ul li{
+        margin-left: 17px;
+        width: 25%;
+
+    }
+    .food_items div{
+        width: 90%;
+        margin: auto;
+    }
+    .food_items_one{
+
+    }
+    .food_items{
+        height: 920px;
+        margin: auto;
+    }
+    .food_items_one ul {
+        width: 100%;
+        height: 100%;
+    }
+    .food_items_one ul li{
+        width: 90%;
+        height: 100px;
+    }
+    .food_menu {
+        max-height: 1150px;
     }
 }
