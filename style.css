@@ -541,6 +541,74 @@ OUR TEAM PART
     margin: 0;
 }
 
+/*================
+START FOOTER
+==================*/
+footer{
+    width: 100%;
+    height: 405px;
+    background-color: #0F172B;
+}
+.footer_top{
+    height: 320px;
+    border-bottom: 1px solid #fff;
+}
+.footer_top div{
+    width: 33%;
+    height: 78%;
+    float: left;
+    color: #fff;
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    font-size: .9rem;
+}
+.footer_contact ul{
+    padding: 0;
+}
+.footer_contact li{
+    list-style-type: none;
+    float: left;
+    background-color: #0F172B;
+}
+
+
+.footer_contact a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.footer_contact a img{
+    width: 100%;
+    height: 100%;
+}
+.footer_open p:nth-child(even){
+    font-size: 1.4rem;
+}
+.footer_bottom{
+    color: #fff;
+    height: 65px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+.footer_bottom a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_bottom a:hover{
+    color: #FEA116;
+}
+
+
+
 
 
 
@@ -596,6 +664,7 @@ OUR TEAM PART
     }
     .welcome{
         height: 1050px;
+        width: 90%;
     }
     .welcome div{
         width: 100%;
@@ -611,6 +680,7 @@ OUR TEAM PART
     .wel_img{
         margin-left: 55px;
         box-sizing: border-box;
+        width: 90;
     }
 
     .food_menu_txt ul{
@@ -666,7 +736,9 @@ OUR TEAM PART
     .book_form input[type=submit]{
         width: 100%;
     }
-
+    .our_team{
+        height: 2090px;
+    }
     .our_team ul{
         height: 1820px;
     }
@@ -683,5 +755,25 @@ OUR TEAM PART
     .our_team a img{
         width: 30px;
         height: 30px;
+    }
+
+
+    footer{
+        height: 840px;
+    }
+    .footer_top{
+        height: 750px;
+        padding-left: 40px;
+    }
+    .footer_top div:first-child{
+        margin-top: 40px;
+    }
+    .footer_top div{
+        width: 100%;
+        height: 225px;
+        margin-top: 0px;
+    }
+    .footer_bottom{
+        height: 60px;
     }
 }
