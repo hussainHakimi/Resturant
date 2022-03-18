@@ -638,6 +638,84 @@ footer{
 }
 
 
+/*=================================================Contact Page================================================*/
+.contact{
+    width: 100%;
+    height: 690px;
+}
+.contact_txt{
+    height: 250px;
+}
+.contact_form{
+    height:350px;
+}
+.contact_txt ul{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.contact_txt li{
+    width: 33%;
+    padding-left: 20px;
+}
+.contact_txt li h4{
+    margin: 5px 0;
+}
+.contact_txt li p{
+    margin: 0;
+    padding-left: 3px;
+}
+.cont_form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.cont_form input{
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    display: block;
+}
+.cont_form input[type=text]{
+    width: 550px;
+    margin: auto;
+    margin-bottom: 20px;
+    outline: none;
+}
+.cont_form input[type=email]{
+    width: 590px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.cont_form input[type=submit]{
+    width: 590px;
+    background: #FEA116;
+    color: #fff;
+    padding: 15px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cont_form textarea{
+    width: 587px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+
 
 
 
